@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import Array from './components/Array';
 //import HookFlow from './hookFlow';
-import App from './App';
+//import App from './App';
+import RouterApp from './Router/RouterApp';
 //import ArrayShuffle from './components/ArrayShuffle';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App/>
+    <RouterApp/>
   </React.StrictMode>,
   document.getElementById('root')
 );
