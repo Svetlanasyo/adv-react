@@ -1,10 +1,11 @@
 import React from 'react';
-import AppClass  from './AppClass';
+import Greetings  from './Greetings/Greetings';
 
 function App() {
   return (
     <>
-      <AppClass />
+    <Greetings name="Svetlana" />
+    
     <h2>My Name is Svetlana</h2>
     </>
   );
