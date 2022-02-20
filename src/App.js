@@ -5,6 +5,9 @@ import CounterWithHook  from './Counter/CounterWithHook';
 import LoginForm from './LoginForm/LoginForm';
 import ConditionalRendering from './ConditionalRendering/ConditionalRendering';
 import Quiz from './Quiz/Quiz';
+import BoardGame from './BoardGame/BoardGame';
+import Lifecycle from './Lifecycle/Lifecycle';
+import FetchApi from './FetchApi/FetchApi';
 function App() {
   return (
     <div>
@@ -14,7 +17,10 @@ function App() {
       <h2>My Name is Svetlana</h2> */}
       {/* <LoginForm /> */}
       {/* <ConditionalRendering /> */}
-      <Quiz />
+      {/* <Quiz /> */}
+      {/* <BoardGame /> */}
+      {/* <Lifecycle /> */}
+      <FetchApi />
     </div>
   );
   }
