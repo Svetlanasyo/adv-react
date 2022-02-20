@@ -2,17 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 //import Array from './components/Array';
-//import HookFlow from './hookFlow';
+import HookFlow from './hookFlow';
 import App from './App';
 import RouterApp from './Router/RouterApp';
 //import ArrayShuffle from './components/ArrayShuffle';
 import reportWebVitals from './reportWebVitals';
 import BoardGame from './BoardGame/BoardGame';
+import FetchApiHook from './FetchApi/FetchApiHook';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <RouterApp/> */}
-    <App />
+    <FetchApiHook />
     {/* <BoardGame /> */}
   </React.StrictMode>,
   document.getElementById('root')
