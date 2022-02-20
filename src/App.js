@@ -4,6 +4,7 @@ import Counter  from './Counter/Counter';
 import CounterWithHook  from './Counter/CounterWithHook';
 import LoginForm from './LoginForm/LoginForm';
 import ConditionalRendering from './ConditionalRendering/ConditionalRendering';
+import Quiz from './Quiz/Quiz';
 function App() {
   return (
     <div>
@@ -12,7 +13,8 @@ function App() {
       <CounterWithHook />
       <h2>My Name is Svetlana</h2> */}
       {/* <LoginForm /> */}
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
+      <Quiz />
     </div>
   );
   }
